@@ -89,7 +89,7 @@ Menampilkan transaksi berdasarkan bulan tertentu, yaitu September dan Oktober 20
 
 Dashboard merupakan halaman utama yang menampilkan ringkasan pemasukan, pengeluaran, keuntungan, dan informasi transaksi keuangan UMKM.
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](<img width="693" height="470" alt="image" src="https://github.com/user-attachments/assets/be3f477c-f1f1-4e5d-a79e-7f4818d9d8c8" />)
 
 ### 6.2 Daftar Transaksi
 

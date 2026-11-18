@@ -95,49 +95,49 @@ Dashboard merupakan halaman utama yang menampilkan ringkasan pemasukan, pengelua
 
 Halaman daftar transaksi menampilkan data pemasukan dan pengeluaran yang telah dicatat dalam sistem.
 
-![Daftar Transaksi](screenshots/daftar_transaksi.png)
+![Daftar Transaksi](<img width="564" height="893" alt="image" src="https://github.com/user-attachments/assets/d564a1d4-38c2-47df-9742-a4717e24a5c9" />)
 
 ### 6.3 Detail Transaksi
 
 Halaman detail transaksi menampilkan informasi secara lengkap mengenai transaksi yang dipilih.
 
-![Detail Transaksi](screenshots/detail_transaksi.png)
+![Detail Transaksi](<img width="585" height="441" alt="image" src="https://github.com/user-attachments/assets/ba96ea6b-d0ee-41f0-b0af-1f6e9c775e53" />)
 
 ### 6.4 Kategori Operasional
 
 Menampilkan data transaksi pengeluaran yang termasuk dalam kategori operasional.
 
-![Kategori Operasional](screenshots/kategori_operasional.png)
+![Kategori Operasional](<img width="518" height="370" alt="image" src="https://github.com/user-attachments/assets/7a243957-e8de-4562-8b25-f7f6861b9690" />)
 
 ### 6.5 Kategori Bahan Baku
 
 Menampilkan data pengeluaran yang digunakan untuk membeli bahan baku usaha.
 
-![Kategori Bahan Baku](screenshots/kategori_bahan_baku.png)
+![Kategori Bahan Baku](<img width="417" height="221" alt="image" src="https://github.com/user-attachments/assets/fa546361-18f8-47fd-8fa1-bb3f3431c2e7" />)
 
 ### 6.6 Periode September 2026
 
 Menampilkan transaksi keuangan yang tercatat pada periode September 2026.
 
-![Periode September](screenshots/periode_september.png)
+![Periode September](<img width="589" height="626" alt="image" src="https://github.com/user-attachments/assets/733b02b1-aff8-4964-8296-6d444a3233f1" />)
 
 ### 6.7 Periode Oktober 2026
 
 Menampilkan transaksi keuangan yang tercatat pada periode Oktober 2026.
 
-![Periode Oktober](screenshots/periode_oktober.png)
+![Periode Oktober](<img width="557" height="566" alt="image" src="https://github.com/user-attachments/assets/7163224e-cfab-4441-9c7b-c80e264aa9f1" />)
 
 ### 6.8 Laporan Laba Rugi
 
 Menampilkan hasil perhitungan pemasukan, pengeluaran, dan keuntungan usaha.
 
-![Laporan Laba Rugi](screenshots/laporan_laba_rugi.png)
+![Laporan Laba Rugi](<img width="544" height="350" alt="image" src="https://github.com/user-attachments/assets/74a61f14-6539-4ebd-bea8-532e82501c31" />)
 
 ### 6.9 Analisis Keuangan
 
 Menampilkan hasil analisis kondisi keuangan usaha berdasarkan data transaksi.
 
-![Analisis Keuangan](screenshots/analisis_keuangan.png)
+![Analisis Keuangan](<img width="940" height="371" alt="image" src="https://github.com/user-attachments/assets/1683800d-20a9-4a42-bc1a-aece9cf94a8c" />)
 
 ---
 

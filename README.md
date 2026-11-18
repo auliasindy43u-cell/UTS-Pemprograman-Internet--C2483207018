@@ -6,135 +6,239 @@ NIM  : C2483207018
 Kelas: PTI5
 Mata Kuliah: Pemprograman Internet 
 
-## Deskripsi Proyek
-Sistem Analisis Keuangan UMKM merupakan aplikasi berbasis web yang dibuat menggunakan Laravel untuk membantu pelaku Usaha Mikro, Kecil, dan Menengah (UMKM) dalam mengelola serta menganalisis kondisi keuangan usaha.
+## 1. Deskripsi Proyek
 
-Aplikasi ini dapat menghitung pemasukan, pengeluaran, keuntungan atau kerugian, mengelompokkan pengeluaran berdasarkan kategori, serta menampilkan laporan transaksi berdasarkan periode tertentu.
+Sistem Analisis Keuangan UMKM merupakan aplikasi berbasis web yang dibuat untuk membantu pelaku Usaha Mikro, Kecil, dan Menengah (UMKM) dalam mengelola serta menganalisis transaksi keuangan. Aplikasi ini dapat menampilkan data pemasukan, pengeluaran, keuntungan, kategori pengeluaran, serta laporan keuangan berdasarkan periode tertentu.
 
-Proyek ini dibuat sebagai tugas pembelajaran pemrograman web dengan menerapkan konsep MVC (Model, View, Controller), routing, array, perulangan, percabangan, dan pengolahan data.
+Aplikasi ini dikembangkan menggunakan framework Laravel dengan bahasa pemrograman PHP. Sistem dirancang agar pengguna dapat melihat informasi keuangan secara lebih terstruktur, mudah dipahami, dan membantu dalam pengambilan keputusan usaha.
 
-## Tujuan
-- Mempermudah pencatatan transaksi keuangan UMKM.
+## 2. Latar Belakang
+
+Dalam menjalankan usaha, pencatatan keuangan merupakan salah satu hal penting yang harus dilakukan. Namun, masih banyak pelaku UMKM yang melakukan pencatatan secara manual sehingga kesulitan mengetahui jumlah pemasukan, pengeluaran, keuntungan, serta kategori pengeluaran terbesar.
+
+Oleh karena itu, dibuatlah Sistem Analisis Keuangan UMKM yang dapat membantu mengolah data transaksi dan menyajikan informasi keuangan secara lebih sistematis melalui halaman dashboard, laporan, dan analisis keuangan.
+
+## 3. Tujuan Aplikasi
+
+- Mempermudah pencatatan dan pengelolaan transaksi keuangan UMKM.
 - Mengetahui total pemasukan dan pengeluaran.
 - Menghitung keuntungan atau kerugian usaha.
 - Mengetahui kategori pengeluaran terbesar.
 - Menampilkan laporan keuangan berdasarkan periode.
-- Membantu analisis kondisi keuangan usaha.
+- Membantu pemilik usaha dalam memahami kondisi keuangan.
 
-## Fitur Aplikasi
-1. **Dashboard** – Menampilkan ringkasan keuangan usaha.
-2. **Data Transaksi** – Menampilkan daftar transaksi pemasukan dan pengeluaran.
-3. **Detail Transaksi** – Menampilkan informasi lengkap transaksi.
-4. **Kategori Transaksi** – Menampilkan transaksi berdasarkan kategori.
-5. **Laporan Periode** – Menampilkan transaksi berdasarkan bulan.
-6. **Laporan Laba Rugi** – Menghitung total pemasukan, pengeluaran, dan keuntungan/kerugian.
-7. **Analisis Keuangan** – Mengelompokkan pengeluaran berdasarkan kategori dan menghitung persentasenya.
-8. **Kategori Pengeluaran Terbesar** – Menentukan kategori pengeluaran dengan nilai tertinggi.
+## 4. Fitur Aplikasi
 
-## Teknologi yang Digunakan
-- PHP 8.2
-- Laravel 12
-- HTML
-- CSS
-- Visual Studio Code / NetBeans
-- XAMPP
-- Composer
+### A. Dashboard
 
-## Struktur Halaman
-| Halaman | URL |
+Menampilkan ringkasan kondisi keuangan usaha, meliputi:
+- Total pemasukan.
+- Total pengeluaran.
+- Total keuntungan.
+- Ringkasan kategori pengeluaran.
+- Kategori pengeluaran terbesar.
+- Daftar transaksi.
+
+### B. Daftar Transaksi
+
+Menampilkan seluruh data transaksi pemasukan dan pengeluaran, meliputi tanggal, nama transaksi, kategori, jenis transaksi, dan nominal.
+
+### C. Detail Transaksi
+
+Menampilkan informasi lengkap dari transaksi yang dipilih, seperti nama transaksi, tanggal, kategori, jenis transaksi, dan nominal.
+
+### D. Kategori Pengeluaran
+
+Menampilkan transaksi berdasarkan kategori pengeluaran, seperti:
+- Bahan Baku.
+- Operasional.
+- Kemasan.
+- Transportasi.
+
+### E. Laporan Laba Rugi
+
+Menampilkan ringkasan keuangan yang digunakan untuk mengetahui total pemasukan, total pengeluaran, serta keuntungan atau kerugian usaha.
+
+### F. Analisis Keuangan
+
+Menampilkan hasil analisis transaksi keuangan, termasuk perbandingan pemasukan dan pengeluaran, persentase kategori pengeluaran, serta kategori pengeluaran terbesar.
+
+### G. Laporan Berdasarkan Periode
+
+Menampilkan transaksi berdasarkan bulan tertentu, yaitu September dan Oktober 2026.
+
+---
+
+## 5. Teknologi yang Digunakan
+
+| Teknologi | Keterangan |
 |---|---|
-| Dashboard | `/` |
-| Transaksi | `/transaksi` |
-| Detail Transaksi | `/transaksi/{id}` |
-| Kategori | `/kategori/{kategori}` |
-| Periode | `/periode/{bulan}` |
-| Laporan Laba Rugi | `/laporan` |
-| Analisis Keuangan | `/analisis` |
+| PHP 8.2 | Bahasa pemrograman backend |
+| Laravel 12 | Framework pengembangan aplikasi web |
+| HTML | Membuat struktur halaman web |
+| CSS | Mengatur tampilan dan desain aplikasi |
+| XAMPP | Lingkungan server lokal |
+| Composer | Mengelola dependensi PHP |
+| NetBeans | Editor untuk pengembangan program |
 
-## Data Transaksi
-Aplikasi menggunakan data transaksi yang disimpan dalam array PHP di Controller dan tidak menggunakan database.
+---
 
-Data transaksi terdiri dari:
-- Tanggal transaksi
-- Nama transaksi
-- Jenis transaksi
-- Kategori transaksi
-- Jumlah uang
+## 6. Screenshot Aplikasi
 
-Data yang digunakan merupakan data contoh UMKM pada bulan September dan Oktober 2026.
+### 6.1 Dashboard
 
-## Contoh Hasil Analisis
+Dashboard merupakan halaman utama yang menampilkan ringkasan pemasukan, pengeluaran, keuntungan, dan informasi transaksi keuangan UMKM.
+
+![Dashboard](screenshots/dashboard.png)
+
+### 6.2 Daftar Transaksi
+
+Halaman daftar transaksi menampilkan data pemasukan dan pengeluaran yang telah dicatat dalam sistem.
+
+![Daftar Transaksi](screenshots/daftar_transaksi.png)
+
+### 6.3 Detail Transaksi
+
+Halaman detail transaksi menampilkan informasi secara lengkap mengenai transaksi yang dipilih.
+
+![Detail Transaksi](screenshots/detail_transaksi.png)
+
+### 6.4 Kategori Operasional
+
+Menampilkan data transaksi pengeluaran yang termasuk dalam kategori operasional.
+
+![Kategori Operasional](screenshots/kategori_operasional.png)
+
+### 6.5 Kategori Bahan Baku
+
+Menampilkan data pengeluaran yang digunakan untuk membeli bahan baku usaha.
+
+![Kategori Bahan Baku](screenshots/kategori_bahan_baku.png)
+
+### 6.6 Periode September 2026
+
+Menampilkan transaksi keuangan yang tercatat pada periode September 2026.
+
+![Periode September](screenshots/periode_september.png)
+
+### 6.7 Periode Oktober 2026
+
+Menampilkan transaksi keuangan yang tercatat pada periode Oktober 2026.
+
+![Periode Oktober](screenshots/periode_oktober.png)
+
+### 6.8 Laporan Laba Rugi
+
+Menampilkan hasil perhitungan pemasukan, pengeluaran, dan keuntungan usaha.
+
+![Laporan Laba Rugi](screenshots/laporan_laba_rugi.png)
+
+### 6.9 Analisis Keuangan
+
+Menampilkan hasil analisis kondisi keuangan usaha berdasarkan data transaksi.
+
+![Analisis Keuangan](screenshots/analisis_keuangan.png)
+
+---
+
+## 7. Contoh Hasil Analisis Keuangan
+
+Berdasarkan data transaksi yang terdapat dalam aplikasi, diperoleh hasil sebagai berikut:
 
 | Keterangan | Jumlah |
 |---|---:|
 | Total Pemasukan | Rp2.925.000 |
 | Total Pengeluaran | Rp650.000 |
-| Keuntungan | Rp2.275.000 |
+| Total Keuntungan | Rp2.275.000 |
 
-### Pengeluaran Berdasarkan Kategori
+### Rincian Pengeluaran Berdasarkan Kategori
 
-| Kategori | Total |
+| Kategori | Jumlah |
 |---|---:|
 | Bahan Baku | Rp195.000 |
 | Operasional | Rp255.000 |
 | Kemasan | Rp110.000 |
 | Transportasi | Rp90.000 |
 
-Kategori pengeluaran terbesar adalah **Operasional**, sebesar Rp255.000.
+Berdasarkan hasil analisis tersebut, kategori Operasional merupakan kategori pengeluaran terbesar, yaitu sebesar Rp255.000.
 
-## Cara Menjalankan Aplikasi
+Keuntungan diperoleh dari hasil pengurangan total pemasukan dengan total pengeluaran.
 
-### 1. Persiapan
-Pastikan sudah menginstal:
-- PHP
-- Composer
-- Laravel
-- XAMPP
+**Rumus:**
 
-### 2. Clone Repository
+Keuntungan = Total Pemasukan − Total Pengeluaran
+
+Rp2.925.000 − Rp650.000 = Rp2.275.000
+
+---
+
+## 8. Cara Instalasi dan Menjalankan Aplikasi
+
+### Persyaratan
+
+- PHP versi 8.2 atau lebih tinggi.
+- Composer.
+- Laravel.
+- XAMPP.
+- Git.
+- Web browser.
+
+### Langkah Instalasi
+
+1. Clone repository GitHub:
+
 ```bash
 git clone https://github.com/USERNAME/sistem-keuangan-umkm.git
 ```
 
-Ganti `USERNAME` dengan nama akun GitHub pemilik repository.
+2. Masuk ke folder proyek:
 
-### 3. Masuk ke Folder Proyek
 ```bash
 cd sistem-keuangan-umkm
 ```
 
-### 4. Instal Dependensi
+3. Instal dependensi Laravel:
+
 ```bash
 composer install
 ```
 
-### 5. Salin File Environment
+4. Salin file konfigurasi:
+
 ```bash
 copy .env.example .env
 ```
 
-### 6. Generate Application Key
+5. Generate application key:
+
 ```bash
 php artisan key:generate
 ```
 
-### 7. Jalankan Server Laravel
+6. Jalankan aplikasi:
+
 ```bash
 php artisan serve
 ```
 
-### 8. Buka Aplikasi
-Buka browser dan akses:
+7. Buka browser dan akses:
 
+```text
 http://127.0.0.1:8000
+```
 
-## Struktur Folder
+---
+
+## 9. Struktur Folder
+
 ```text
 sistem-keuangan-umkm/
+│
 ├── app/
 │   └── Http/
 │       └── Controllers/
 │           └── KeuanganController.php
+│
 ├── resources/
 │   └── views/
 │       ├── beranda.blade.php
@@ -144,50 +248,32 @@ sistem-keuangan-umkm/
 │       ├── periode.blade.php
 │       ├── laporan.blade.php
 │       └── analisis.blade.php
+│
 ├── routes/
 │   └── web.php
-├── public/
+│
+├── screenshots/
+│   ├── dashboard.png
+│   ├── daftar_transaksi.png
+│   ├── detail_transaksi.png
+│   ├── kategori_operasional.png
+│   ├── kategori_bahan_baku.png
+│   ├── periode_september.png
+│   ├── periode_oktober.png
+│   ├── laporan_laba_rugi.png
+│   └── analisis_keuangan.png
+│
 ├── README.md
-└── composer.json
+└── ...
 ```
 
-## Konsep Pemrograman yang Diterapkan
-- Array untuk menyimpan data transaksi.
-- `foreach` untuk mengolah data.
-- `if-else` untuk menentukan jenis transaksi dan kondisi keuntungan.
-- Fungsi untuk memisahkan proses pengolahan data.
-- Routing untuk menghubungkan halaman.
-- Controller untuk mengolah data.
-- Blade untuk menampilkan data ke halaman web.
-- `array_filter()` untuk menyaring transaksi.
-- `number_format()` untuk format mata uang Rupiah.
-- 
-  ## Screenshot Aplikasi
+---
 
-### Dashboard
-![Dashboard](screenshots/dashboard.png)
+## 10. Kesimpulan
 
-### Daftar Transaksi
-![Daftar Transaksi](screenshots/daftar_transaksi.png)
+Sistem Analisis Keuangan UMKM merupakan aplikasi yang dibuat untuk membantu proses pengelolaan dan analisis keuangan usaha. Melalui fitur dashboard, transaksi, kategori, laporan laba rugi, dan analisis keuangan, pengguna dapat mengetahui kondisi keuangan usaha secara lebih mudah.
 
-### Detail Transaksi
-![Detail Transaksi](screenshots/detail_transaksi.png)
+Pengembangan aplikasi ini juga menjadi sarana pembelajaran dalam menerapkan pemrograman web menggunakan PHP dan framework Laravel, mulai dari pembuatan controller, routing, pengolahan data, hingga menampilkan informasi pada halaman web.
 
-### Kategori Operasional
-![Kategori Operasional](screenshots/kategori_operasional.png)
 
-### Kategori Bahan Baku
-![Kategori Bahan Baku](screenshots/kategori_bahan_baku.png)
-
-### Periode September
-![Periode September](screenshots/periode_september.png)
-
-### Periode Oktober
-![Periode Oktober](screenshots/periode_oktober.png)
-
-### Laporan Laba Rugi
-![Laporan Laba Rugi](screenshots/laporan_laba_rugi.png)
-
-### Analisis Keuangan
-![Analisis Keuangan](screenshots/analisis_keuangan.png)
 
